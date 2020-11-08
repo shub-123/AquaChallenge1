@@ -1,0 +1,24 @@
+"test_apivalidations.py is the main test file"
+"Pre-requisites
+Run the MOck server first
+Import Requets library
+and then run the "test_apivalidations.py file"
+
+Once run it will show a small report in the consle
+
+The report will be as following
+
+1. All the tasks presnt in the database will be visible
+2. A new task will be created and the task id will be stored and passed on to different functions to perform validations
+3. The created task will be then verified using GET single task to see if  the task is  available in the database
+4. Then the created task is  checked in all tasks list
+5. Then task is modified using PUT and we will verify if it is successful
+6. The modified task is checked in database using both GET single task url and GET tasks URL
+7. Then the task is marked as Complete
+8. Verification of task willl be done in order to see if  the completion mark is visble using GET single task and
+    GET all tasks
+9. Then task is  marked as Incomplete and the is verifed if the completion status of the task is  changed or not using
+    GET Task and GET all tasks
+10. We will delete the Task and then verify that the task is successfully deleted or not.
+
+------------------------------------------------------------------------------------------------------------
